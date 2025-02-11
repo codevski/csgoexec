@@ -1,12 +1,13 @@
-# CSGO Config
+# CS2 Config
 
-csgo backup config
+CS2 backup config
 
 Launch Options:
-`-novid -console -refresh 144 +cl_updaterate 128 +cl_cmdrate -tickrate 128`
+`Linux`
+`env LD_PRELOAD="" MANGOHUD=1 gamemoderun gamescope --expose-wayland -W 1280 -H 960 -r 144 --adaptive-sync -f --force-grab-cursor -S stretch --mangoapp -- %command% +exec autoexec -novid -nojoy`
 
 ### Changelog
 
-- 1.1 - Minor adjustments
+- 2.0 - New template from PINPAL
 - 1.0 - init
   - framework
